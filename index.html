@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Jason Talbert - Web Designer</title>
+  </head>
+
+  <body>
+    <header class="header">
+      <h1>Jason Talbert</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="#about-me">About Me</a>
+          </li>
+          <li>
+            <a href="#work">Work</a>
+          </li>
+          <li>
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="hero" id="about-me">
+      <img
+        class="ape"
+        src="./images/ape-headshotflip.jpg"
+        alt="A charming ape."
+      />
+      <blockquote class="intro">
+        <p class="intro-opener">Hey! I'm Jason.</p>
+        <p class="intro-text">
+          I carry an associate's degree in Advertising & Graphic Design and
+          recently completed a Full-Stack Web Development Bootcamp at UNCC. I'm
+          passionate about design, creativity, and the psychological aspects
+          within design that influence user behavior.
+          <br />
+          <br />
+          In my spare time I enjoy coaching football, resetting in nature, and
+          growing with family. My past as an athlete, as well as coach, has
+          taught me a lot about teamwork and development. I look forward to
+          utilizing these skills as I continue growing in my Web Development
+          career!
+        </p>
+      </blockquote>
+    </div>
+
+    <section class="example-work" id="work">
+      <p class="work-lead">Check Out A Few Examples of my Web Design Work</p>
+      <div class="work-attributes">
+        <div class="card">
+          <p>Run Buddy</p>
+          <a href="https://jtal3.github.io/run-buddy/">
+            <img
+              src="./images/runbuddy-overlay.jpg"
+              alt="Run Buddy Portfolio Piece"
+            />
+          </a>
+        </div>
+        <!-- placeholder images and projects -->
+        <div class="card">
+          <p>Data Mammoth</p>
+          <a href="https://felixa-github.github.io/Data-Mammoth/">
+            <img src="./images/datamammoth.jpg" alt="Data Mammoth Overview" />
+          </a>
+        </div>
+        <div class="card">
+          <p>Pick-a-Flic</p>
+          <a href="https://jtal3.github.io/Pick-a-Flic/">
+            <img src="./images/Pick-a-Flic.jpg" alt="Pick-a-Flic Overview" />
+          </a>
+        </div>
+        <div class="card">
+          <p>Cremoso Cheesecake Company</p>
+          <!-- Trigger the Modal -->
+          <img
+            id="myImg"
+            src="./images/cremoso.png"
+            alt="Cremoso Cheesecake Company"
+            style="width: 100%; max-width: 300px"
+          />
+
+          <!-- The Modal -->
+          <div id="myModal" class="modal">
+            <!-- The Close Button -->
+            <span class="close">&times;</span>
+
+            <!-- Modal Content (The Image) -->
+            <img class="modal-content" id="img01" />
+
+            <!-- Modal Caption (Image Text) -->
+            <div id="caption"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end placeholder images and projects -->
+
+    <section class="example-work" id="work">
+      <p class="work-lead">
+        Check Out A Few Examples of my Graphic Design Work
+      </p>
+        <!-- placeholder graphic design projects -->
+        <div class="work-attributes">
+        <div class="card">
+          <p>Cremoso Cheesecake Company - Logo Design</p>
+          <!-- Trigger the Modal -->
+          <img
+            id="myImg"
+            src="./images/cremosologo.png"
+            alt="Cremoso Cheesecake Company Logo"
+          />
+
+        </div>
+        <div class="card">
+          <p>Cremoso Cheesecake Company - Trailer Branding</p>
+          <!-- Trigger the Modal -->
+          <img
+            id="myImg"
+            src="./images/cremosotruck.jpg"
+            alt="Cremoso Cheesecake Company Trailer"
+          />
+        </div>
+        <div class="card">
+          <p>Cremoso Cheesecake Company - Food Truck Branding</p>
+          <!-- Trigger the Modal -->
+          <img
+            id="myImg"
+            src="./images/cremosotruck2.jpg"
+            alt="Cremoso Cheesecake Company Food Truck"
+          />
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="work-attributes">
+      <div class="card">
+        <p>CANvenient Brochure (Print Ready) - Front</p>
+        <!-- Trigger the Modal -->
+        <img
+          id="myImg"
+          src="./images/CANvenient_brochureFinal-01.jpg"
+          alt="CANvenient Brochure Front"
+        />
+
+      </div>
+      <div class="card">
+        <p>CANvenient Brochure (Print Ready) - Back</p>
+        <!-- Trigger the Modal -->
+        <img
+          id="myImg"
+          src="./images/CANvenient_brochureFinal-02.jpg"
+          alt="CANvenient Brochure Back"
+        />
+      </div>
+    </div>
+  </div>
+  </div>
+    </div>
+    </section>
+   
+    <!-- end placeholder graphic design projects -->
+
+    <section class="contact-me" id="contact">
+      <p class="last">Contact</p>
+      <table class="table">
+        <tr>
+          <th>
+            <b>Email:</b>
+            <a class="social" href="mailto:jason.talbert.jt@gmail.com">
+              jason.talbert.jt@gmail.com</a
+            >
+          </th>
+          <!-- <th><b>Github:</b><a href="https://github.com/JTAL3"> JTAL3</a></th> -->
+          <th>
+            <b>LinkedIn:</b>
+            <a class="social" href="https://www.linkedin.com/in/jasontalbert"
+              >Jason Talbert</a
+            >
+          </th>
+        </tr>
+      </table>
+    </section>
+
+    <!-- end of content section -->
+
+    <footer class="footer">
+      <p>&copy; 2023 Jason Talbert</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
